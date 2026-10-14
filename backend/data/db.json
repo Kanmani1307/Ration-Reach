@@ -1,0 +1,54 @@
+{
+  "shops": [
+    {
+      "id": 1,
+      "code": "TN-CHN-001",
+      "name": "Nandambakkam Fair Price Shop",
+      "area": "Nandambakkam",
+      "district": "Chennai",
+      "status": "Open",
+      "queueMinutes": 18,
+      "distributionDay": "2026-10-15"
+    },
+    {
+      "id": 2,
+      "code": "TN-CBE-014",
+      "name": "Coimbatore Main Fair Price Shop",
+      "area": "Coimbatore",
+      "district": "Coimbatore",
+      "status": "Open",
+      "queueMinutes": 8,
+      "distributionDay": "2026-10-16"
+    },
+    {
+      "id": 3,
+      "code": "TN-TIR-021",
+      "name": "Tiruppur North Fair Price Shop",
+      "area": "Tiruppur",
+      "district": "Tiruppur",
+      "status": "Busy",
+      "queueMinutes": 32,
+      "distributionDay": "2026-10-17"
+    }
+  ],
+  "stock": [
+    {"shopId":1,"commodity":"Rice","unit":"kg","currentStock":420,"dailyConsumption":95,"incomingStock":500,"lastUpdated":"2026-10-14T08:30:00"},
+    {"shopId":1,"commodity":"Wheat","unit":"kg","currentStock":75,"dailyConsumption":28,"incomingStock":150,"lastUpdated":"2026-10-14T08:30:00"},
+    {"shopId":1,"commodity":"Sugar","unit":"kg","currentStock":110,"dailyConsumption":18,"incomingStock":100,"lastUpdated":"2026-10-14T08:30:00"},
+    {"shopId":2,"commodity":"Rice","unit":"kg","currentStock":680,"dailyConsumption":82,"incomingStock":400,"lastUpdated":"2026-10-14T08:15:00"},
+    {"shopId":2,"commodity":"Wheat","unit":"kg","currentStock":210,"dailyConsumption":22,"incomingStock":100,"lastUpdated":"2026-10-14T08:15:00"},
+    {"shopId":2,"commodity":"Sugar","unit":"kg","currentStock":95,"dailyConsumption":16,"incomingStock":100,"lastUpdated":"2026-10-14T08:15:00"},
+    {"shopId":3,"commodity":"Rice","unit":"kg","currentStock":190,"dailyConsumption":70,"incomingStock":300,"lastUpdated":"2026-10-14T07:45:00"},
+    {"shopId":3,"commodity":"Wheat","unit":"kg","currentStock":40,"dailyConsumption":25,"incomingStock":100,"lastUpdated":"2026-10-14T07:45:00"},
+    {"shopId":3,"commodity":"Sugar","unit":"kg","currentStock":80,"dailyConsumption":14,"incomingStock":100,"lastUpdated":"2026-10-14T07:45:00"}
+  ],
+  "beneficiaries": [
+    {"id":1,"name":"Demo Beneficiary","mobile":"9876543210","rationCard":"TN-DEMO-001","shopId":1}
+  ],
+  "users": [
+    {"mobile":"9876543210","pin":"1234","role":"beneficiary","name":"Demo Beneficiary"},
+    {"mobile":"9876543211","pin":"1234","role":"operator","name":"Shop Operator"},
+    {"mobile":"9876543212","pin":"1234","role":"admin","name":"System Administrator"}
+  ],
+  "complaints": []
+}
